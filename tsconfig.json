@@ -1,0 +1,14 @@
+ {
+  "compilerOptions": {
+    "outDir": "./lib/",
+    "module": "commonjs",
+    "lib": ["es2015", "dom"],
+    "target": "es5",
+    "moduleResolution": "node",
+    "strict": true,
+    "types": ["cypress"],
+  },
+  "exclude": [
+    "node_modules"
+  ],
+}
