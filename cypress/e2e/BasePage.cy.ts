@@ -6,6 +6,6 @@ describe('Base Page UI and buttons functionality', () => {
     BasePageElements.searchButton().should("be.visible");
     BasePageElements.shopIcon().should("be.visible");
     BasePageElements.navButtons("Home").should("be.visible");
-    
+    //some test message
   })
 })
