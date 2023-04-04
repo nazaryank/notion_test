@@ -2,7 +2,7 @@ import { BasePageElements } from "../Pages/BasePageElements";
 import { ContactPageElements } from "../Pages/ContactPageElements";
 
 describe ("Contact page", () => {
-    beforeEach(()=> {
+    before(()=> {
         cy.visit('https://newtonsupplyco.com');
     })
 
