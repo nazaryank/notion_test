@@ -1,9 +1,12 @@
 import { BasePageElements } from "../Pages/BasePageElements";
 import { ContactPageElements } from "../Pages/ContactPageElements";
+import { Constants } from '../fixtures/Constants';
+import ContactTestBase from './ContactTestBase.cy';
 
 describe ("Contact page", () => {
     before(()=> {
-        cy.visit('https://newtonsupplyco.com');
+        cy.visit(Constants.baseURL);
+        ContactTestBase.validateNavBarElements();
     })
 
     it("should verify Contact page UI and buttons functionality", () => {
